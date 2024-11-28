@@ -14,11 +14,7 @@ function Address() {
                             <p className="justified-text" style={{marginTop:'-70px'}}>
                                 This template is a micro niche for business categories, namely laundry business. There was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use coding.
                             </p>
-                            <div className="social-icons">
-                                <a href="#"><i className="fab fa-facebook"></i></a>
-                                <a href="#"><i className="fab fa-twitter"></i></a>
-                                <a href="#"><i className="fab fa-square-x-twitter"></i></a>
-                            </div>
+                            
                         </div>
                         {/* Quick Links Section */}
                         <div className="col-lg-4 col-md-6 mb-4 text-center">
