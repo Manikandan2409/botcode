@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './FirstHead.css';
 
 function FirstHead() {
-  const [activeLink, setActiveLink] = useState('#home'); // Default active link
+  const [activeLink, setActiveLink] = useState('#home'); 
 
   const handleLinkClick = (href) => {
     setActiveLink(href);

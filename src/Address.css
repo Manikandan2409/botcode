@@ -1,4 +1,15 @@
+
+
 /* Footer Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body, .footer, .container, .row, .col-lg-4, .col-md-6, .col-md-12, p, ul, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .footer {
     padding: 20px;
     background-color: #333;

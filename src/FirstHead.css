@@ -1,4 +1,10 @@
+
+
 /* FirstHead.css */
+*{
+  font-family:'Poppins';
+}
+
 
 /* Base styles for navigation links */
 .nav-links .nav-link {

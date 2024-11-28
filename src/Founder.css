@@ -1,48 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* Founder.css */
+body, .container, .founder-section, .founder-text, .business-section, .business-item {
+    font-family: 'Poppins', sans-serif;
+}
 
 .founder-section {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 17px; /* Space between items */
+    gap: 20px; /* Increased space between items */
+    align-items: flex-start;
+    margin-bottom: 30px; /* Space below the section */
 }
 
 .founder-image {
-    flex: 1 1 500px; /* Flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 500px; /* Adjusted flex-basis */
     text-align: center;
-}
-
-.founder-text {
-    flex: 8 600px;
-   
+    max-width: 100%;
 }
 
 .founder-image img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 1rem; /* Spacing below image on smaller screens */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 1rem;
+}
+
+.founder-text {
+    flex: 2 1 600px; /* Adjusted flex-grow and basis */
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400; /* Lighter weight for readability */
+    line-height: 1.6; /* Improved line height */
+    text-align: justify;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .business-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: center;
-    gap: 1rem; /* Space between items */
+    gap: 20px; /* Space between items */
 }
 
 .business-item {
     flex: 1 1 200px;
     padding: 1rem;
-    background: #f9f9f9;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-
-    background-color: #349bc6;
+    background-color: #349bc6; /* Ensure color consistency */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s; /* Smooth hover effect */
 }
 
-.business-item img {
-    max-width: 100px;
-    margin-bottom: 0.5rem;
+.business-item:hover {
+    transform: translateY(-3px); /* Subtle hover effect */
+}
+
+.business-item i {
+    font-size: 33px; /* Adjust icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.business-item h3 {
+    font-size: 23px;
+    font-weight: 500;
 }

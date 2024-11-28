@@ -27,7 +27,7 @@ const Services = () => {
              <h2 className="text-center" style={{ fontSize: '39px', fontWeight: '580' ,fontFamily:'Poppins',color:'#349bc6'}}>Our Services</h2>
            <br/>
             <div className="text-center">
-                   <p className="sub-heading mb-4" style={{textAlign:'justify',fontFamily:'Outfit',fontSize:'1rem',color:'#666',fontWeight:'579',lineHeight:'29px'}}>
+                   <p className="sub-heading mb-4" style={{textAlign:'justify',fontFamily:'Poppins',fontSize:'1rem',color:'#666',fontWeight:'579',lineHeight:'29px'}}>
                     At our laundry service, we believe that the true measure of our success lies in the satisfaction of our customers. We are delighted to share the experiences and feedback from those who have trusted us with their laundry needs. Our testimonials highlight the positive impact our services have had on their lives, from the convenience of doorstep pick-up and delivery to the exceptional care we take with each garment. These stories reflect our commitment to quality, reliability, and customer satisfaction. Read on to discover how we've made laundry day easier and more enjoyable for our valued clients. If you’ve had a great experience with us, we invite you to share your story and join our growing community of happy customers!
                </p>
             </div>
@@ -44,7 +44,7 @@ const Services = () => {
                                 </div>
                             </div>
                             <div className="card-body">
-                                <p className="card-text " style={{textAlign:'justify',fontFamily:'Josefin Sans',fontWeight:'630',fontSize:'16px',color:'#666'}}>{service.description}</p>
+                                <p className="card-text " style={{textAlign:'justify',fontFamily:'Poppins',fontWeight:'630',fontSize:'16px',color:'#666'}}>{service.description}</p>
                             </div>
                         </div>
                     </div>

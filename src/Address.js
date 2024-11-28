@@ -5,16 +5,15 @@ function Address() {
     const currentYear = new Date().getFullYear();
     return (
         <div>
-            <footer className="footer bg-dark text-light py-5" >
+            <footer className="footer bg-dark text-light py-5">
                 <div className="container my-2" id="contact">
                     <div className="row">
                         {/* Logo Section */}
-                        <div className="col-lg-4 col-md-6 mb-4 text-center text-lg-left" style={{marginTop:'-60px'}}>
+                        <div className="col-lg-4 col-md-6 mb-4 text-center text-lg-left" style={{ marginTop: '-60px' }}>
                             <img src="logo123.png" alt="Laundryes" className="img-fluid logo" />
-                            <p className="justified-text" style={{marginTop:'-70px'}}>
+                            <p className="justified-text" style={{ marginTop: '-70px' }}>
                                 This template is a micro niche for business categories, namely laundry business. There was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use coding.
                             </p>
-                            
                         </div>
                         {/* Quick Links Section */}
                         <div className="col-lg-4 col-md-6 mb-4 text-center">
@@ -31,7 +30,7 @@ function Address() {
                             <ul>
                                 <li><i className="fa-solid fa-location-dot"></i> N.R.K.R Road, near Reg. Office, Sivakasi - 626124.</li>
                                 <li><i className="fa-solid fa-phone"></i> +91 12345 67890</li>
-                                <li><i className="fa-solid fa-envelope"></i>laundryes@gmail.com</li>
+                                <li><i className="fa-solid fa-envelope"></i> laundryes@gmail.com</li>
                             </ul>
                         </div>
                     </div>

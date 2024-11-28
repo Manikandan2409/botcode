@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-/* Work.css */
 .details .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .work-col {
     flex: 1;
-   
-    background-color: #161D6F; /* Default color for first column */
+    background-color: #161D6F; /* Default color for the first column */
     padding: 20px;
     border: 0.7px solid white;
-
     display: flex;
     flex-direction: column;
-   
-    margin-left: auto;
-    margin-right: auto;
- 
+    margin: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.work-col:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
 }
 
 .work-col:nth-child(2) {
@@ -31,17 +34,21 @@
 }
 
 .work-header {
-    font-size: 14px;
+    font-size: 16px; /* Adjusted for readability */
     color: white;
-    margin-bottom: 0;
+    margin-bottom: 10px; /* Improved spacing */
+    font-weight: 600; /* Slightly bold for emphasis */
 }
 
 .work-detail {
-    font-size: 18px;
+    font-size: 24px; /* Larger size for main content */
     color: white;
     margin-top: 0;
+    font-weight: 700; /* Bold for importance */
+    letter-spacing: 0.5px; /* Added letter spacing for better readability */
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .details .row {
         flex-direction: column;
