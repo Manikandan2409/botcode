@@ -13,10 +13,10 @@ function Home() {
             <Col md={6}>
               <div className="left bg-transparent bg-opacity-50 p-4 rounded" style={{ marginTop: '2px', fontFamily: 'Poppins, sans-serif' }}>
                 <p style={{ fontSize: '22px', fontWeight: '930', letterSpacing: '0.2px' }}>
-                  WE ARE THE BEST LAUNDRY SERVICE PROVIDERS FROM SIVAKASI.
+                  WE ARE THE BEST BEST CAR SALES & SERVICE PROVIDERS FROM SIVAKASI.
                 </p>
                 <p style={{ fontSize: '17px', fontWeight: '600', letterSpacing: '0.2px' }}>
-                  This template is using Adobe Muse making it easier to edit, add content, and without having to use the coding in the edit.
+                Whether you're looking for sleek sedans, powerful SUVs, sporty coupes, or eco-friendly hybrids, our showroom showcases a wide variety of models to suit every preference and lifestyle.
                 </p>
               </div>
             </Col>

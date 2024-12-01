@@ -28,7 +28,7 @@ const Services = () => {
            <br/>
             <div className="text-center">
                    <p className="sub-heading mb-4" style={{textAlign:'justify',fontFamily:'Poppins',fontSize:'1rem',color:'#666',fontWeight:'579',lineHeight:'29px'}}>
-                   At our laundry service, customer satisfaction is our true measure of success. Our testimonials showcase how we make laundry day easier and more enjoyable, with convenient pick-up and delivery and careful attention to each garment. These stories reflect our commitment to quality, reliability, and exceptional service. If you’ve had a great experience, we’d love for you to share your story and join our community of happy clients!
+                   At our car service, customer satisfaction is our true measure of success. Our testimonials showcase how we make laundry day easier and more enjoyable, with convenient pick-up and delivery and careful attention to each garment. These stories reflect our commitment to quality, reliability, and exceptional service. If you’ve had a great experience, we’d love for you to share your story and join our community of happy clients!
                </p>
             </div>
 

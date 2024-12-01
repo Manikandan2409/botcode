@@ -15,7 +15,7 @@ function Founder() {
                 </div>
                 <div className="founder-text" style={{textAlign:'justify',fontFamily:'Outfit',fontSize:'1rem',color:'#666',fontWeight:'579',lineHeight:'25px'}}>
                     <p>
-                    This template is designed specifically for the laundry business, offering a simple, unique style that makes website creation easy. With Adobe Muse, it’s simple to edit and add content without coding. This multipage template includes a homepage, about page, services page, pricing page, FAQ, blog, and contact page, covering all essential business website needs. It’s an ideal solution for laundry business owners and web developers looking to build professional websites efficiently.
+                    Customer-Centric Approach: Your satisfaction is our priority. From helping you choose the perfect car to offering personalized service plans, we’re with you every step of the way. Backed by a team of skilled technicians and knowledgeable sales advisors, we ensure you receive accurate guidance and top-quality service every time.
 
                                  </p>
                 </div>

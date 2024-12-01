@@ -10,7 +10,7 @@ function Work() {
             <Row className="gx-0 flexbox-row" style={{ width: '100%', marginRight: 'auto', marginLeft: 'auto' }}>
                 <Col className="work-col">
                     <h2 className="work-header">Have doubts? Call</h2>
-                    <h1 className="work-detail">+91 12345 67890</h1>
+                    <h1 className="work-detail">+91 81 486 45 640</h1>
                 </Col>
                 <Col className="work-col">
                     <h2 className="work-header">We are open from</h2>
@@ -18,7 +18,7 @@ function Work() {
                 </Col>
                 <Col className="work-col">
                     <h2 className="work-header">Further? Drop mail to</h2>
-                    <h1 className="work-detail">laundryes@gmail.com</h1>
+                    <h1 className="work-detail">botcode@gmail.com</h1>
                 </Col>
             </Row>
         </Container>
