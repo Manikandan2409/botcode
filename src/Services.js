@@ -5,17 +5,17 @@ import './Services.css'
 const Services = () => {
     const services = [
         {
-            imgSrc: "washiron.png",
+            imgSrc: "https://i.ytimg.com/vi/O2iK0CWvMes/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkBOMqPSnRUH0owtYQrbhcbANsug",
             title: "Wash and Iron",
             description: "Our Wash and Iron service ensures your clothes are thoroughly cleaned and crisply ironed, ready for you to wear. From everyday shirts to delicate blouses, we handle each item with care, delivering wrinkle-free and fresh-smelling garments every time."
         },
         {
-            imgSrc: "dry.jpg",
+            imgSrc: "https://www.motortrend.com/files/66be495df6b94900092234e9/011-cadillac-opulent-velocity-concept-first-look.jpg?w=768&width=768&q=75&format=webp",
             title: "Dry Cleaning",
             description: "Specialized in treating delicate fabrics, our Dry Cleaning service removes tough stains and odors while preserving the quality of your garments. Ideal for suits, dresses, and other special clothing, we ensure your items are returned clean and perfectly pressed."
         },
         {
-            imgSrc: "https://awnstailoring.com/wp-content/uploads/2023/05/t.png",
+            imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUeIXbk2DqM-Nf7wpeoJUkBf1XsVdKDjKxSvOmCMPIAPJcgxCZJEtS63s_TTCNu2lwZM&usqp=CAU",
             title: "Garment Repairs and Alterations",
             description: "Our Garment Repairs and Alterations service helps extend the life of your favorite clothes. Whether you need a hem adjusted, a zipper replaced, or a tear mended, our skilled tailors will restore your garments to their best condition."
         }];
